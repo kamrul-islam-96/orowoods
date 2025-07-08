@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: "Inria Serif", serif;
+}
+
+header {
+    width: 1440px;
+    height: 880px;
+    border-radius: 30px;
+    background-color: #575049CC;
+    margin: 0 auto;
+    padding: 40px 70px;
+    position: relative;
+}
+
+nav {
+    width: 1184px;
+    height: 106px;
+    background-color: #4D4D4D;
+    padding: 26px 60px;
+    border-radius: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    position: relative;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.logo a span {
+    color: #F36800;
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact-btn button {
+    padding: 10px 24px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F36800;
+    color: #fff;
+}
+
+/** hero section **/
+.hero-section {
+    background-image: url(./assets/hero-banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 1302px;
+    height: 747px;
+    position: absolute;
+    top: 93px;
+    left: 68px;
+}
+
+.heading-desc {
+    width: 774px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 180px 0 0 60px;
+    padding: 24px;
+}
+
+.heading-desc h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+}
+
+.heading-desc p {
+    font-size: 20px;
+    font-weight: 400px;
+    padding-right: 53px;
+    text-align: justify;
+    color: #fff;
+    margin: 27px 0 60px;
+}
+
+.heading-desc button {
+    padding: 10px 66px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #F36800;
+}
+
+
+/** main section **/
+main {
+    width: 1440px;
+    height: auto;
+    padding: 60px 70px 100px;
+    margin: 0 auto;
+}
+
+.product-categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-categories p {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+/** furnist **/
+.furnist {
+    width: 1207px;
+    height: auto;
+    margin: 100px auto 48px;
+}
+
+.furnist h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.furnist p {
+    text-align: center;
+}
+
+
+/** second navbar **/
+.sec-nav {
+    width: 416px;
+    height: 59px;
+    padding: 20px 30px;
+}
+
+.sec-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-nav ul li a {
+    font-size: 16px;
+    
+}
+
+
+/** our products **/
+.our-products {
+    width: 100%;
+    height: auto;
+    margin: 48px auto 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.products-card {
+    width: 302px;
+    height: 440px;
+}
+
+figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+figcaption .desc {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stock {
+    color: #BC6D33;
+}
+
+.price-dis {
+    padding-top: 8px;
+    display: flex;
+    gap: 13px;
+}
+
+/** banner image **/
+.banner-img-sec {
+    width: 100%;
+    height: 500px;
+    background-color: palevioletred;
+    background-image: url(./assets/banner-image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 14px 60px 14px 14px;
+}
+
+.btn-div {
+    width: 155px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-left-radius: 12px;
+}
+   
+.order-btn {
+  background-color: #C47C35; 
+  color: white;
+  padding: 12px 39px;
+  border-radius: 0 0 0 8px; 
+  border: none;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+
+/** bed section **/
+.bed-section {
+    width: 100%;
+    height: 530px;
+    position: relative;
+}
+
+.bottom-div {
+    width: 100%;
+    height: 289px;
+    background-color: #D9D9D9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bed-info {
+    width: 385px;
+    height: 126px;
+    margin: 89px 0 74px 112px;
+    border-right: 2px solid black;
+}
+
+.f-child {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.s-child {
+    padding: 8px 0 24px;
+}
+
+.bed-info a {
+    text-decoration: none;
+    color: #BC6D33;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bed-img img {
+    width: 600px;
+    height: 640px;
+    position: absolute;
+    bottom: -103px;
+    right: 40px;
+}
