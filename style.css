@@ -46,8 +46,6 @@ nav {
     color: #F36800;
 }
 
-
-
 ul {
     display: flex;
     align-items: center;
@@ -63,6 +61,14 @@ ul li a {
     font-size: 20px;
     font-weight: 400;
     color: #fff;
+}
+
+.fa-chevron-down {
+    color: #fff;
+}
+
+.home {
+    color: #F36800;
 }
 
 .contact-btn button {
@@ -174,8 +180,11 @@ main {
 }
 
 .sec-nav ul li a {
-    font-size: 16px;
-    
+    font-size: 16px;  
+}
+
+.new-arrive {
+    color: #F36800;
 }
 
 
@@ -240,11 +249,13 @@ figcaption .desc {
 .order-btn {
   background-color: #C47C35; 
   color: white;
-  padding: 12px 39px;
+  padding: 12px 29px;
   border-radius: 0 0 0 8px; 
   border: none;
   cursor: pointer;
   margin-left: 12px;
+  display: flex;
+  gap: 8px;
 }
 
 
