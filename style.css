@@ -121,8 +121,13 @@ ul li a {
 main {
     width: 1440px;
     height: auto;
-    padding: 60px 70px 100px;
     margin: 0 auto;
+}
+
+.parent-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 70px 100px;
 }
 
 .product-categories {
@@ -430,4 +435,97 @@ figcaption .desc {
     height: 8px;
     background-color: #8D8D8DCC;
     border-radius: 10px;
+}
+
+
+/** footer **/
+.footer-extra {
+    width: 1291px;
+    height: 272px;
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 413px;
+    height: 208px;
+}
+
+.foot-logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+.foot-logo a span {
+    color: #F36800;
+}
+
+
+.footer-desc {
+    margin: 16px 0 24px;
+}
+
+.foolow-us {
+    font-weight: 700;
+}
+
+.social-media {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.social-media i {
+    font-size: 18px;
+    color: #BC6D33;
+}
+
+.footer-right {
+    width: 790px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us {
+    width: 166px;
+    height: 100%;
+}
+
+.heading-div {
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #BC6D33;
+    margin-bottom: 24px;
+}
+
+.heading-div p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.items a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    width: 1300px;
+    margin: 0 auto 50px;
+}
+
+.copy-right {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
 }
